@@ -1,0 +1,29 @@
+@import "~antd/dist/antd.css";
+
+#root {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+
+.ant-layout {
+  min-height: 100%;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.ant-layout-content {
+  padding: 24px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.ant-row {
+  width: 100%;
+}
+
+.text-center {
+  text-align: center;
+}
